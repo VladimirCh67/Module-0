@@ -11,5 +11,5 @@ print(2 * 2 + 2 == 2 * (2 + 2))
 
 #  4th program
 x = '123.456'
-print((int(float(x) * 10)) - (int(float(x)) * 10))
-print(int(float('123.456') * 10) % 10)
+print((int(float(x) * 10)) - (int(float(x)) * 10))  # My version
+print(int(float('123.456') * 10) % 10)              # Official version
